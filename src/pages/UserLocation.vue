@@ -1,5 +1,11 @@
 <template>
-  <h1>User Location </h1>
+  <section class="ui two column grid">
+
+    <div class="column red"></div>
+
+    <div class="column blue"></div>
+
+  </section>
 </template>
 
 <script>
