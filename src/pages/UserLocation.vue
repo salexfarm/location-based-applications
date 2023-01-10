@@ -1,10 +1,6 @@
 <template>
-  <section class="ui two column grid">
-
+  <section class="ui two column grid centered grid">
     <div class="column red"></div>
-
-    <div class="column blue"></div>
-
   </section>
 </template>
 
