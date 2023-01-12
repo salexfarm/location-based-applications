@@ -7,7 +7,7 @@
           <div class="field">
             <div class="ui right icon input large">
               <input type="text" placeholder="Enter your address"/>
-              <i class="dot circle link icon"></i>
+              <i class="dot circle link icon" @click="locatorButtonPressed"></i>
             </div>
           </div>
           <button class="ui button pink">Go</button>
