@@ -20,6 +20,20 @@
 
 <script>
 export default {
+  methods: {
+    locatorButtonPressed () {
+      if (navigator.geolocation) {
+        console.log('Your browser supports Geolocation API')
+      } else {
+        console.log('Your browser does not support Geolocation API')
+      }
+    }
+  }
+}
+</script>
+
+<script>
+export default {
   name: 'UserLocation.vue'
 }
 </script>
